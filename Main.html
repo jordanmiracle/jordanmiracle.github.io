@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jordan Miracle — IT Generalist</title>
+  <meta name="description" content="Systems‑oriented IT generalist in Bellingham, WA. Hybrid: user support + infrastructure. Remote‑friendly." />
+  <style>
+    :root{
+      --bg:#0b1220;         /* deep slate */
+      --bg-2:#0f172a;       /* slate-900 */
+      --text:#e5e7eb;       /* gray-200 */
+      --muted:#9aa4b2;      /* slate-400 */
+      --accent:#7dd3fc;     /* sky-300 */
+      --accent-2:#38bdf8;   /* sky-400 */
+      
+      --card:#111827;       /* gray-900 */
+      --border:#1f2937;     /* gray-800 */
+      --link:#93c5fd;       /* blue-300 */
+      --code:#0b3a53;       
+      --radius:16px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --max: 980px;
+    }
+    html,body{height:100%;}
+    body{margin:0;background:linear-gradient(160deg,var(--bg),var(--bg-2));color:var(--text);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";}
+    .wrap{max-width:var(--max);margin:0 auto;padding:48px 20px 80px;}
+    header{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;margin-bottom:28px}
+    .brand{display:flex;gap:14px;align-items:center}
+    .dot{width:12px;height:12px;border-radius:999px;background:radial-gradient(circle at 30% 30%,var(--accent),var(--accent-2));box-shadow:0 0 16px var(--accent-2)}
+    h1{font-size:28px;margin:0}
+    .tag{color:var(--muted);font-size:14px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:16px;border-bottom:1px solid transparent}
+    nav a:hover{color:var(--text);border-color:var(--accent)}
+
+    .hero{background:linear-gradient(180deg,rgba(125,211,252,.06),transparent);border:1px solid var(--border);border-radius:var(--radius);padding:24px 22px;box-shadow:var(--shadow);}
+    .hero h2{margin:4px 0 4px;font-size:22px}
+    .hero p{margin:0;color:var(--muted)}
+
+    section{margin-top:28px}
+    .cards{display:grid;grid-template-columns:1fr;gap:14px}
+    @media (min-width:760px){.cards{grid-template-columns:repeat(2,1fr)}}
+    .card{background:linear-gradient(180deg, rgba(17,24,39,.75), rgba(17,24,39,.55));border:1px solid var(--border);border-radius:var(--radius);padding:18px 16px;box-shadow:var(--shadow)}
+    .card h3{margin:4px 0 8px;font-size:16px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(56,189,248,.12);border:1px solid rgba(125,211,252,.25);color:var(--text);font-size:12px;margin:4px 6px 0 0}
+
+    .kvs{display:grid;grid-template-columns: 140px 1fr;gap:10px;margin:0;padding:0}
+    .kvs dt{color:var(--muted)}
+    .kvs dd{margin:0}
+
+    .grid-3{display:grid;grid-template-columns:1fr;gap:12px}
+    @media (min-width:920px){.grid-3{grid-template-columns:repeat(3,1fr)}}
+
+    a{color:var(--link)}
+    footer{margin-top:40px;color:var(--muted);font-size:14px}
+    .cta{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:10px;background:rgba(147,197,253,.12);border:1px solid rgba(147,197,253,.25);color:var(--text);text-decoration:none}
+    .cta:hover{border-color:var(--accent);color:white}
+    code{background:rgba(125,211,252,.1);padding:1px 6px;border-radius:6px;border:1px solid rgba(125,211,252,.25)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="dot" aria-hidden="true"></div>
+        <div>
+          <h1>Jordan Miracle</h1>
+          <div class="tag">IT Generalist • Systems & Support • Bellingham, WA</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about" class="hero" aria-label="About Jordan">
+      <h2>Calm, systems‑oriented, remote‑ready.</h2>
+      <p>I keep small teams productive by maintaining stable systems, documenting clearly, and solving user issues without drama. Hybrid by default: behind‑the‑scenes infrastructure <em>and</em> thoughtful user support.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Core Strengths</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Systems & Platforms</h3>
+          <div class="pill">Linux (Ubuntu, Debian, Fedora)</div>
+          <div class="pill">Windows (Desktop & Server)</div>
+          <div class="pill">AWS</div>
+          <div class="pill">DigitalOcean</div>
+          <div class="pill">Heroku</div>
+          <div class="pill">Nextcloud</div>
+          <div class="pill">WordPress</div>
+          <div class="pill">Django</div>
+          <div class="pill">Git/GitHub</div>
+          <div class="pill">VirtualBox/VMware</div>
+        </div>
+        <div class="card">
+          <h3>Networking & Hardware</h3>
+          <div class="pill">VLANs • DHCP/DNS • Firewalls</div>
+          <div class="pill">Home/SMB Wi‑Fi & switching</div>
+          <div class="pill">PC building & compatibility</div>
+          <div class="pill">BIOS/UEFI configuration</div>
+          <div class="pill">Diagnostics & repair</div>
+        </div>
+        <div class="card">
+          <h3>Ways I Work</h3>
+          <p>Quietly reliable. I document, close the loop, and reduce repeat tickets by fixing root causes.</p>
+          <ul>
+            <li>Structured troubleshooting, pragmatic automation</li>
+            <li>Clear, non‑jargony communication</li>
+            <li>Security‑aware by default</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2>Selected Experience</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>IT Manager — PNW Tree & Landscape</h3>
+          <p>2022–2024 · Bellingham, WA</p>
+          <ul>
+            <li>Managed internal IT: workstations, backups, Wi‑Fi, and file organization for a small field‑service team.</li>
+            <li>Standardized device builds and basic documentation to stabilize daily operations.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>IT & Web — Radical Engineers (Non‑profit)</h3>
+          <p>6‑month internship + ~1.5 years volunteer · Remote (London)</p>
+          <ul>
+            <li>Maintained apps and sites on AWS, Heroku, and DigitalOcean.</li>
+            <li>Linux servers (Ubuntu/Debian/Fedora); WordPress, Django, GitHub.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Freelance IT Technician</h3>
+          <p>2021–Present · Bellingham, WA</p>
+          <ul>
+            <li>Troubleshooting, networking, and small‑business support; remote and on‑site.</li>
+            <li>Website maintenance, hosting management, and user training.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <dl class="kvs">
+        <dt>Email</dt>
+        <dd><a href="mailto:jordanmiracle@protonmail.com">jordanmiracle@protonmail.com</a></dd>
+        <dt>Location</dt>
+        <dd>Bellingham, WA (remote‑friendly)</dd>
+        <dt>Phone</dt>
+        <dd>360-527-6815</dd>
+        <dt>GitHub</dt>
+        <dd><a href="#">github.com/yourhandle</a></dd>
+        <dt>Résumé</dt>
+        <dd><a class="cta" href="#">Download (PDF)</a> <span class="tag">— add link once hosted</span></dd>
+      </dl>
+      <p class="tag">To update your email or links, edit this file. No build step needed.</p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Jordan Miracle. Built as a single static HTML file. Dark‑mode by default. No tracking.</p>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
